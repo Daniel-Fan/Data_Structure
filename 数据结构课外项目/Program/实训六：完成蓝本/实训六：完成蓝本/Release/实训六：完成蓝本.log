@@ -1,0 +1,27 @@
+﻿  Source.cpp
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(180): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(181): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(182): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(183): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(184): warning C4244: '=': conversion from 'WORD' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(187): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(188): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+Source.cpp(78): warning C4091: 'typedef ': ignored on left of 'MenuItemStru' when no variable is declared
+Source.cpp(86): warning C4091: 'typedef ': ignored on left of 'MenuSelectStru' when no variable is declared
+Source.cpp(191): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(201): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(211): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(220): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(237): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(245): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(255): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(263): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(267): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(276): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(286): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(297): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(322): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+  Generating code
+  All 41 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  实训六：完成蓝本.vcxproj -> D:\Data Structure\数据结构课外项目\Program\实训六：完成蓝本\Release\实训六：完成蓝本.exe

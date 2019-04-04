@@ -1,0 +1,25 @@
+﻿  Source.cpp
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(180): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(181): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(182): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(183): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(184): warning C4244: '=': conversion from 'WORD' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(187): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(188): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(78): warning C4091: 'typedef ': ignored on left of 'MenuItemStru' when no variable is declared
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(86): warning C4091: 'typedef ': ignored on left of 'MenuSelectStru' when no variable is declared
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(191): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(201): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(211): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(220): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(237): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(245): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(255): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(263): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(267): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(276): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(286): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(297): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\source.cpp(322): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+  实训四：显示主和子菜单.vcxproj -> F:\Data Structure\数据结构课外项目\Program\实训四：显示主和子菜单\Debug\实训四：显示主和子菜单.exe
+  实训四：显示主和子菜单.vcxproj -> F:\Data Structure\数据结构课外项目\Program\实训四：显示主和子菜单\Debug\实训四：显示主和子菜单.pdb (Partial PDB)

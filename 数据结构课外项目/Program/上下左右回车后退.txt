@@ -1,0 +1,6 @@
+¡ú:AsciiChar= 0 VirtualKey=39
+¡û:AsciiChar= 0 VirtualKey=37
+¡ü:AsciiChar= 0 VirtualKey=38
+¡ý:AsciiChar= 0 VirtualKey=40
+Esc:AsciiChar=1b VirtualKey=27
+»Ø³µ:AsciiChar= d VirtualKey= d

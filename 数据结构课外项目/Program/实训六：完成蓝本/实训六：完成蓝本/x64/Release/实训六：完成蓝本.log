@@ -1,0 +1,45 @@
+﻿  Source.cpp
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(180): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(181): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(182): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(183): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(184): warning C4244: '=': conversion from 'WORD' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(187): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+d:\data structure\数据结构课外项目\program\实训六：完成蓝本\实训六：完成蓝本\conio.h(188): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+Source.cpp(78): warning C4091: 'typedef ': ignored on left of 'MenuItemStru' when no variable is declared
+Source.cpp(86): warning C4091: 'typedef ': ignored on left of 'MenuSelectStru' when no variable is declared
+Source.cpp(191): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(191): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(201): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(201): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(211): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(211): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(220): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(220): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(237): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(237): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(245): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(245): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(255): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(255): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(263): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(263): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(267): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(267): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(276): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(276): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(286): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(286): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(297): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(297): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(322): warning C4838: conversion from '__int64' to 'ShortInt' requires a narrowing conversion
+Source.cpp(322): warning C4244: 'initializing': conversion from '__int64' to 'ShortInt', possible loss of data
+Source.cpp(349): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(431): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(441): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  30 of 40 functions (75.0%) were compiled, the rest were copied from previous compilation.
+    9 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  实训六：完成蓝本.vcxproj -> D:\Data Structure\数据结构课外项目\Program\实训六：完成蓝本\x64\Release\实训六：完成蓝本.exe

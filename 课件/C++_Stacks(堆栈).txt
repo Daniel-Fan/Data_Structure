@@ -1,0 +1,153 @@
+                                C++ Stacks(堆栈)
+
+    Stack是一个容器类的改编——也就是说实现了一个先进后出（FILO）的数据结构。stack不直接维护被控序列的模版类，而是它存储的容器对象来为它实现堆栈的所有功能。值得注意的是迭代器不能在堆栈中使用,因为只有栈顶的元素才可以访问。
+typedef stack<T,deque<T,allocator<T>>>mystack
+默认的参数中容器是用deque实现的；被包含的容器要满足提供value_type，size_type，empt，size，push_back，pop_back；可选择的容器有list，deque，vector；要求有最快的平均访问速度，而且大概的容量要求也清楚(比较衡定)，那么，使用vector是个不错的选择 要求每次的访问时间平稳，而不在乎平均访问时间时，那么，可以考虑使用list；所以，库默认的deque是个不错的选择，它介于vector和list之间，并且很好的综合了两者的优势。
+
+函数列表：
+运算符操作 比较和分配堆栈 
+empty() 堆栈为空则返回真 
+pop() 移除栈顶元素 
+push() 在栈顶增加元素 
+size() 返回栈中元素数目 
+top() 返回栈顶元素 
+
+////////////////////////////////////////////////////////////////////////////////////
+构造函数
+explicit stack(const allocator_type& al = allocator_type());
+1.stack() 声明一个空栈；
+2.stack(copy)用一个栈对象copy初始化新栈。
+    
+运算符操作
+语法:   
+  ==
+  <=
+  >=
+  <
+  >
+  !=
+所有的这些操作可以被用于堆栈. 相等指堆栈有相同的元素并有着相同的顺序。
+empty
+语法:   bool empty();
+如当前堆栈为空，empty() 函数 返回 true 否则返回false.
+pop
+语法:   void pop();
+pop() 函数移除堆栈中最顶层元素。
+push
+void push( const TYPE &val );
+push() 函数将 val 值压栈，使其成为栈顶的第一个元素。如:
+
+    stack<int> s;
+    for( int i=0; i < 10; i++ )
+      s.push(i);
+ 
+size
+语法:   size_type size();
+size() 函数返当前堆栈中的元素数目。如:
+
+    stack<int> s;
+    for( int i=0; i < 10; i++ )
+      s.push(i);
+    cout << "This stack has a size of " << s.size() << endl;
+    
+top
+语法:  TYPE &top();
+top() 函数返回对栈顶元素的引用. 举例,如下代码显现和清空一个堆栈。
+
+    while( !s.empty() ) {
+      cout << s.top() << " ";
+      s.pop();
+    }
+示例1：
+#include <iostream>
+#include <vector>
+#include <stack>
+#include<string>
+using namespace std;
+void main()
+{
+       typedef stack<string, vector<string, allocator<string> > > _STACK;
+	_STACK mystack;
+	 
+	 mystack.push("hard\n");
+	 mystack.push("work ");
+	 _STACK copystack(mystack);
+	 while(!mystack.empty())
+	 {
+	     cout<<mystack.top();
+	     mystack.pop();
+		 
+	     cout<<copystack.top();
+	     copystack.pop();
+	 }
+}
+示例2：
+#include <iostream>
+#include <assert.h>
+#include <vector>
+#include <deque>
+#include <list>
+#include <stack>
+#include <string>
+using namespace std;
+struct employee
+{
+public:
+	employee(long eID, string e_Name, float e_Salary);
+public:
+	long ID;                  //Employee ID
+	string name;              //Employee Name
+	float salary;	          //Employee Salary
+};
+//员工类构造函数
+employee::employee(long eID, string e_Name, float e_Salary)
+: ID(eID), name(e_Name), salary(e_Salary) {}
+
+//定义一个用Vector维护被控序列的栈类型
+typedef stack<employee, vector<employee, allocator<employee> > > V_EMPLOYEE_STACK;
+
+//定义一个用Deque维护被控序列的栈类型
+typedef stack<employee, deque<employee, allocator<employee> > > D_EMPLOYEE_STACK;
+
+//定义一个用List维护被控序列的栈类型
+typedef stack<employee, list<employee, allocator<employee> > > L_EMPLOYEE_STACK;
+         
+void main(int argc, char* argv[])
+{
+	V_EMPLOYEE_STACK v_employee;
+	D_EMPLOYEE_STACK d_employee;
+	L_EMPLOYEE_STACK l_employee;
+
+	//下面的三条语句分别构造三个employee对象，然后入容器对象为Vector的栈
+	v_employee.push(V_EMPLOYEE_STACK::value_type(100, "huahua", 200000));
+	v_employee.push(V_EMPLOYEE_STACK::value_type(101, "jiafeng", 8000));
+	v_employee.push(V_EMPLOYEE_STACK::value_type(101, "unknown", 20000));
+    assert(!v_employee.empty());
+	//下面这条语句弹出最后入栈的employee对象
+	v_employee.pop();
+
+	//下面的三条语句分别构造三个employee对象，然后入容器对象为Deque的栈
+	d_employee.push(D_EMPLOYEE_STACK::value_type(100, "huahua", 200000));
+	d_employee.push(D_EMPLOYEE_STACK::value_type(101, "jiafeng", 8000));
+	d_employee.push(D_EMPLOYEE_STACK::value_type(101, "unknown", 20000));
+	assert(!d_employee.empty());
+	//下面这条语句弹出最后入栈的employee对象
+	d_employee.pop();
+
+	//下面的三条语句分别构造三个employee对象，然后入容器对象为List的栈
+	l_employee.push(L_EMPLOYEE_STACK::value_type(100, "huahua", 200000));
+	l_employee.push(L_EMPLOYEE_STACK::value_type(101, "jiafeng", 8000));
+	l_employee.push(L_EMPLOYEE_STACK::value_type(101, "unknown", 20000));
+	assert(!l_employee.empty());
+	//下面这条语句弹出最后入栈的employee对象
+	l_employee.pop();
+
+	cout << "容器对象为Vector的栈是否为空？ " << (v_employee.empty() ? "TRUE" : "FALSE") << endl;
+	cout << "容器对象为Vector的栈共有" << v_employee.size() << "个employee对象!" << endl;
+
+	cout << "容器对象为Deque的栈是否为空？" << (d_employee.empty() ? "TRUE" : "FALSE") << endl;
+	cout << "容器对象为Deque的栈共有" << d_employee.size() << "个employee对象!" << endl;
+
+	cout << "容器对象为List的栈是否为空？" << (l_employee.empty() ? "TRUE" : "FALSE") << endl;
+	cout << "容器对象为List的栈共有" << l_employee.size() << "个employee对象!" << endl;
+}

@@ -1,0 +1,30 @@
+﻿  Source.cpp
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(180): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(181): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(182): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(183): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(184): warning C4244: '=': conversion from 'WORD' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(187): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+f:\data structure\数据结构课外项目\program\实训四：显示主和子菜单\实训四：显示主和子菜单\conio.h(188): warning C4244: '=': conversion from 'SHORT' to 'unsigned char', possible loss of data
+Source.cpp(77): warning C4091: 'typedef ': ignored on left of 'MenuItemStru' when no variable is declared
+Source.cpp(85): warning C4091: 'typedef ': ignored on left of 'MenuSelectStru' when no variable is declared
+Source.cpp(190): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(200): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(210): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(219): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(236): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(244): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(254): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(262): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(266): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(275): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(285): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(296): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(321): warning C4838: conversion from 'int' to 'ShortInt' requires a narrowing conversion
+Source.cpp(355): warning C4101: 'j': unreferenced local variable
+  Generating code
+  3 of 27 functions (11.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  实训四：显示主和子菜单.vcxproj -> F:\Data Structure\数据结构课外项目\Program\实训四：显示主和子菜单\Release\实训四：显示主和子菜单.exe

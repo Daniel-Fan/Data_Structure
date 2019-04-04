@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.c>
+#include<windows.h>
+#include<string.h>
+int main()
+{
+	int i;
+	KeyValueStru CurrentKey;
+	CurrentKey=kbhit();
+    printf("AsciiChar=%2x VirtualKey=%2x\n",CurrentKey.AscChar,CurrentKey.VKey);
+	return 0;
+}
+

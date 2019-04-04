@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<string.h>
+int c[50005];
+int lowbit(int k){
+	return k&-k;
+}
+void change(int pos,int d){
+	while(pos<=50000){
+		c[pos]+=d;
+		pos+=lowbit(pos);
+	}
+}
+int sum(int pos){
+	int ans=0;
+	while(pos>0){
+		ans+=c[pos];
+		pos-=lowbit(pos);
+	}
+	return ans;
+}
+int main(){
+	int t,cas=1;
+	scanf("%d",&t);
+	while(t--){
+		memset(c,0,sizeof(c));
+		int n,i,j;
+		scanf("%d",&n);
+		for(i=1;i<=n;i++){
+			scanf("%d",&j);
+			change(i,j);
+		}
+		char s[15];
+		printf("Case %d:\n",cas++);
+		while(scanf("%s",s)){
+			if(s[0]=='E')break;
+			int x,y;
+			scanf("%d%d",&x,&y);
+			if(s[0]=='Q')printf("%d\n",sum(y)-sum(x-1));
+			else if(s[0]=='A')change(x,y);
+			else change(x,-y);
+		}
+	}
+	return 0;
+}
